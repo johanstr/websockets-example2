@@ -1,0 +1,36 @@
+.hidden {
+    display: none;
+}
+
+#messages {
+    text-align: left;
+    overflow-y: scroll;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.msg {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.time {
+    float: right;
+    color: #939393;
+    font-size: 13px;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
